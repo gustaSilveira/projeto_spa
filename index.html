@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=+, initial-scale=1.0">
+    <title>SPA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header id="cabecalho" class="navbar navbar-expand-lg sticky-top">
+            <div class="container">
+            <h1 class="navbar-bran m-0 section-title"> SPA</h1>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                <ul class="nav navbar-nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#espaco">
+                            <i class="bi bi-house-door"></i>
+                            Espaço
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#servico">
+                            <i class="bi bi-tags"></i>
+                            serviços
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#contato">
+                            <i class="bi bi-person-up"></i>
+                            contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+    </header>
+        <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true" class="custom-background-light">
+            <section id="espaco" class="custom-background-light">
+                <div class="pt- pb-5">
+                    <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                        <div class="carousel-inner ">
+                            <div class="carousel-item active" data-bs-interval="2000">
+                                <img class="d-block vh-100 custom-carousel-image" src="img/slides/slide1.jpg" alt="foto espaço do spa">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img class="d-block vh-100 custom-carousel-image" src="img/slides/slide2.jpg" alt="foto externa">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img class="d-block  vh-100 custom-carousel-image" src="img/slides/slide3.jpg" alt="foto spa">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                        </div>
+                    </div>
+                    <div class="pt-5 pb-5">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <img src="img/slides/sobreOspa.jpg" class="d-block w-100 rounded" alt="foto do spa massagem">
+                                </div>
+                                <div class="col-md-7">
+                                    <h2 class="section-title">Sobre o SPA</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam deleniti repellat quidem, exercitationem dolorum vero odio, fugit accusamus ipsam unde pariatur, adipisci numquam. Aut nam laboriosam autem rerum optio beatae.</p>
+                                    <h3 class="section-title">Nosso Espaço</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sequi ipsa, architecto ullam officia qui minus voluptates incidunt obcaecati non voluptate ab assumenda dolores unde eligendi odit beatae, ex est?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="servico" class="pt-2 pb-5 custom-background" >
+                <div class="container mt-5">
+                    <h2 class="text-colored text-center fonte">Nossos Serviços</h2>
+                    <nav class="nav nav-pills mb-2">
+                        <button data-bs-toggle="tab" data-bs-target="#pag1" type="button"  class="nav-link active">Massages</button>
+                        <button data-bs-toggle="tab" data-bs-target="#pag2" type="button"  class="nav-link">terapias</button>
+                        <button data-bs-toggle="tab" data-bs-target="#pag3" type="button"  class="nav-link">relaxamento</button>
+                        <button data-bs-toggle="tab" data-bs-target="#pag4" type="button"  class="nav-link">revitalização</button>
+                    </nav>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="pag1">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/slides/tradicional.jpg" alt="massagem1">
+                                    <h5 class="text-colored fw-bold mt-2">massagem tradicional</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.?</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/slides/pedrasquentes.jpg" alt="massagem2">
+                                    <h5 class="text-colored fw-bold mt-2">massagem com pedras</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.?</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/slides/oleo.jpg" alt="massagem3">
+                                    <h5 class="text-colored fw-bold mt-2">massagem com oleo</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.?</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/slides/bamboo.jpg" alt="massagem4">
+                                    <h5 class="text-colored fw-bold mt-2">massagem com bamboo</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane " id="pag2">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/terapia/ioga.jpg" alt="terapia1">
+                                    <h5 class="text-colored fw-bold mt-2">Ioga</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.?</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/terapia/meditation.jpg" alt="terapia2">
+                                    <h5 class="text-colored fw-bold mt-2">meditação</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.?</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/terapia/sonoridade.jpg" alt="terapia3">
+                                    <h5 class="text-colored fw-bold mt-2">terapia do som</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.?</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/terapia/hidro.jpg" alt="terapia4">
+                                    <h5 class="text-colored fw-bold mt-2">hidroterapia</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane " id="pag3">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/relaxamento/area aberta.jpg" alt="relax1">
+                                    <h5 class="text-colored fw-bold mt-2">Temos area de camping</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.?</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/relaxamento/area de leitura.jpg" alt="relax2">
+                                    <h5 class="text-colored fw-bold mt-2">Area de leitura</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.?</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/relaxamento/nature.jpg" alt="relax3">
+                                    <h5 class="text-colored fw-bold mt-2">Area de natureza</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.?</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/relaxamento/praia.jpg" alt="relax4">
+                                    <h5 class="text-colored fw-bold mt-2">Spa pe na areia</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane " id="pag4">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/revitalizacao/skincare.jpg" alt="revitalize1">
+                                    <h5 class="text-colored fw-bold mt-2">Skincare</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.?</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/revitalizacao/pele.jpg" alt="revitalize2">
+                                    <h5 class="text-colored fw-bold mt-2">Tratamento pele</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.?</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/revitalizacao/produtos.jpg" alt="revitalize3">
+                                    <h5 class="text-colored fw-bold mt-2">melhores produtos</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.?</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="img/revitalizacao/maos.jpg" alt="revitalize4">
+                                    <h5 class="text-colored fw-bold mt-2"> pra todo o corpo</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer id="contato">
+                <div id="redes-sociais">
+                    <a href="#" target="_blank"><i class="bi bi-facebook"></i></a>
+                    <a href="#" target="_blank"><i class="bi bi-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
+                </div>
+            </footer>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>	
+</body>
+</html>

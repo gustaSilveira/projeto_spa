@@ -1,0 +1,60 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fonte{
+    font-family: 'Lato', sans-serif;
+    font-size: 50px bold;
+}
+
+.custom-carousel-image {
+    width: 100%;  
+    height: auto;  
+    margin: 0 auto;  
+}
+
+.navbar{
+    background-color: #3E7E8C;
+}
+
+.navbar-nav .nav-link.active{
+    color: #fff;
+}
+
+.nav-link{
+    text-align: center;
+}
+
+.section-title{
+    font-family: Lato, cursive;
+}
+
+.custom-background-light{
+    background-color:#8C8632;
+}
+
+
+.text-colored{
+    color: #3E7E8C;
+}
+
+
+.custom-background {
+    background-color: #bfc4b5;
+    color: #fff; 
+    padding: 20px;
+}
+
+#contato {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#redes-sociais a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 24px;
+}
